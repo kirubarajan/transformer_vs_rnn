@@ -78,7 +78,7 @@ model.embedding.weight.data.copy_(TEXT.vocab.vectors)
 model.embedding.weight.data[UNK_IDX] = torch.zeros(EMBEDDING_DIM)
 model.embedding.weight.data[PAD_IDX] = torch.zeros(EMBEDDING_DIM)
 
-"""Model Training""
+"""Model Training"""
 
 import torch.optim as optim
 
