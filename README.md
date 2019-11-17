@@ -1,4 +1,4 @@
-# Transformers vs Recurrent Neural Networks
+# Is Attention All You Need?
 > An analysis on the trade-offs between NLP's standard neural models.
 
 ## Abstract
